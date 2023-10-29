@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+
+    <link rel="stylesheet" href="./src/styles/globals.css" />
+    <link rel="stylesheet" href="./src/styles/mediaQuery.css" />
+  </head>
+  <body>
+    <div id="task-list">
+      <header>
+        <h1 id="logo">MyTask</h1>
+      </header>
+
+      <main>
+        <div id="tasks-container"></div>
+
+        <div id="new-task">
+          <div class="input-task-item">
+            <label for="task-title">Titulo</label>
+            <input type="text" name="task-title" id="task-title" />
+          </div>
+
+          <div class="input-task-item">
+            <label for="task-note">Anotações</label>
+            <textarea name="task-note" id="task-note" cols="30" rows="10"></textarea>
+          </div>
+
+          <div id="input-button">
+            <input type="button" value="Salvar" id="task-save" />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

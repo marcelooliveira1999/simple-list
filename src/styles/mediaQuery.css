@@ -1,0 +1,50 @@
+@media (max-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header {
+    height: 5vh;
+  }
+
+  #tasks-container {
+    height: min-content;
+    overflow: visible;
+  }
+
+  .task-date {
+    bottom: 0.5rem;
+    right: 0.5rem;
+
+    font-size: 0.75rem;
+  }
+
+  .task-note-container {
+    width: 75%;
+  }
+
+  hr {
+    display: block;
+  }
+
+  #logo {
+    font-size: 2rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+
+  textarea {
+    height: 15vh;
+  }
+
+  #input-button {
+    position: fixed;
+    width: 100%;
+
+    top: 2rem;
+    right: 3rem;
+  }
+}
